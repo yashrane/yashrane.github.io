@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>PLZ WORK</title>
+
+    </head>
+	<body>
+	
+		<audio id="player" src="BADBADNOTGOOD - SONG OF STORMS.mp3"></audio>
+		
+		<script>
+			window.onerror = function(msg, url, linenumber) {
+				alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
+				alert("FUCK GITHUB IN THE ASS WITH A SPIKEY CACTUS. JAVASCRIPT SHOULD DIE IN A FIRE TOO.")
+				alert("FIREBASE NEEDS TO SUCK A DICK. OR GO FUCK ITSELF. PREFERABLY BOTH. AT THE SAME TIME")
+				return true;
+			}
+		</script>
+		
+		<script>
+			var context = new webkitAudioContext();
+			
+			audioElement.addEventListener("canplay", function() {
+				var source = context.createMediaElementSource(audioElement);
+				source.connect(context.destination);
+			});
+		</script>
+	</body>
+</html>
